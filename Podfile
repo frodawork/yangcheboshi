@@ -5,3 +5,4 @@ pod 'AMapSearch' #搜索服务SDK
 pod 'MBProgressHUDExtensions', '~> 0.0.1'
 pod 'ASIHTTPRequest', '~> 1.8.2'
 pod 'MJRefresh', '~> 1.4.5'
+pod 'Masonry', '~> 0.6.1'

@@ -14,6 +14,7 @@ PODS:
     - Reachability
   - ASIHTTPRequest/S3 (1.8.2):
     - ASIHTTPRequest/Core
+  - Masonry (0.6.1)
   - MBProgressHUD (0.9.1)
   - MBProgressHUDExtensions (0.0.1):
     - MBProgressHUD (~> 0.4)
@@ -24,6 +25,7 @@ DEPENDENCIES:
   - AMap2DMap
   - AMapSearch
   - ASIHTTPRequest (~> 1.8.2)
+  - Masonry (~> 0.6.1)
   - MBProgressHUDExtensions (~> 0.0.1)
   - MJRefresh (~> 1.4.5)
 
@@ -31,6 +33,7 @@ SPEC CHECKSUMS:
   AMap2DMap: 4952d35e7d3abdf36a568115bda21bd2b0d65e9b
   AMapSearch: eafa5a749b1078a46f15e6108e88307f78f75e9b
   ASIHTTPRequest: ec013992946676b7978dcbde6396d57312d21db4
+  Masonry: 4972309f2f134de9dd312f4dc4a21359b50e6caa
   MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
   MBProgressHUDExtensions: f39a37dcc0bf6c7622470c5f5874116ef86ca22e
   MJRefresh: 4b24394e577ea399fbc926e5b6072317aae2c152

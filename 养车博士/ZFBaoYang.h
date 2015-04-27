@@ -15,7 +15,7 @@
  assign:基本数据类型
  */
 
-@interface ZFBaoYang : NSObject
+@interface ZFBaoyang : NSObject
 /**
  *  车店名称
  */

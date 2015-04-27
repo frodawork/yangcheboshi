@@ -15,12 +15,13 @@
 		9E84E7A41AE7284B00E0E600 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E84E7A21AE7284B00E0E600 /* LaunchScreen.xib */; };
 		9E84E7B01AE7284B00E0E600 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E84E7AF1AE7284B00E0E600 /* ____Tests.m */; };
 		9E84E7BC1AE72C4D00E0E600 /* BaoYangDianViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E84E7BB1AE72C4D00E0E600 /* BaoYangDianViewController.m */; };
-		9EA400C41AE75ED1007C3AD9 /* ZFBaoYang.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EA400C31AE75ED1007C3AD9 /* ZFBaoYang.m */; };
-		9EA400C71AE7D412007C3AD9 /* baoyangInformCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EA400C61AE7D411007C3AD9 /* baoyangInformCell.xib */; };
+		9EA400C41AE75ED1007C3AD9 /* ZFBaoyang.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EA400C31AE75ED1007C3AD9 /* ZFBaoyang.m */; };
+		9EA400C71AE7D412007C3AD9 /* BaoyangInformCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EA400C61AE7D411007C3AD9 /* BaoyangInformCell.xib */; };
 		9EEB6CB41AE8B85C007827E1 /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EEB6CB31AE8B85C007827E1 /* start.png */; };
 		9EEB6CC01AE8F72E007827E1 /* BaoYangAreaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EEB6CBF1AE8F72E007827E1 /* BaoYangAreaViewController.m */; };
 		9EEB6CD41AE91A90007827E1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EEB6CD31AE91A90007827E1 /* SystemConfiguration.framework */; };
 		9EEB6CD81AE92804007827E1 /* ZFMethodColletion.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EEB6CD71AE92804007827E1 /* ZFMethodColletion.m */; };
+		9EED41421AEB15BC0068BC87 /* BaoyangInformCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EED41411AEB15BC0068BC87 /* BaoyangInformCell.m */; };
 		FB251A3F84FD6A475E360EBE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 081A1B270D0535E4C095FE42 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -54,15 +55,17 @@
 		9E84E7B91AE729FB00E0E600 /* ZFMacrodDefinition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFMacrodDefinition.h; sourceTree = "<group>"; };
 		9E84E7BA1AE72C4D00E0E600 /* BaoYangDianViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaoYangDianViewController.h; sourceTree = "<group>"; };
 		9E84E7BB1AE72C4D00E0E600 /* BaoYangDianViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaoYangDianViewController.m; sourceTree = "<group>"; };
-		9EA400C21AE75ED1007C3AD9 /* ZFBaoYang.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBaoYang.h; sourceTree = "<group>"; };
-		9EA400C31AE75ED1007C3AD9 /* ZFBaoYang.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBaoYang.m; sourceTree = "<group>"; };
-		9EA400C61AE7D411007C3AD9 /* baoyangInformCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = baoyangInformCell.xib; sourceTree = "<group>"; };
+		9EA400C21AE75ED1007C3AD9 /* ZFBaoyang.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBaoyang.h; sourceTree = "<group>"; };
+		9EA400C31AE75ED1007C3AD9 /* ZFBaoyang.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBaoyang.m; sourceTree = "<group>"; };
+		9EA400C61AE7D411007C3AD9 /* BaoyangInformCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaoyangInformCell.xib; sourceTree = "<group>"; };
 		9EEB6CB31AE8B85C007827E1 /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start.png; sourceTree = "<group>"; };
 		9EEB6CBE1AE8F72E007827E1 /* BaoYangAreaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaoYangAreaViewController.h; sourceTree = "<group>"; };
 		9EEB6CBF1AE8F72E007827E1 /* BaoYangAreaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaoYangAreaViewController.m; sourceTree = "<group>"; };
 		9EEB6CD31AE91A90007827E1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		9EEB6CD61AE92804007827E1 /* ZFMethodColletion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFMethodColletion.h; sourceTree = "<group>"; };
 		9EEB6CD71AE92804007827E1 /* ZFMethodColletion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFMethodColletion.m; sourceTree = "<group>"; };
+		9EED41401AEB15BC0068BC87 /* BaoyangInformCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaoyangInformCell.h; sourceTree = "<group>"; };
+		9EED41411AEB15BC0068BC87 /* BaoyangInformCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaoyangInformCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,8 +170,8 @@
 		9EA400C11AE75E96007C3AD9 /* DataMode */ = {
 			isa = PBXGroup;
 			children = (
-				9EA400C21AE75ED1007C3AD9 /* ZFBaoYang.h */,
-				9EA400C31AE75ED1007C3AD9 /* ZFBaoYang.m */,
+				9EA400C21AE75ED1007C3AD9 /* ZFBaoyang.h */,
+				9EA400C31AE75ED1007C3AD9 /* ZFBaoyang.m */,
 			);
 			name = DataMode;
 			sourceTree = "<group>";
@@ -176,7 +179,9 @@
 		9EA400C51AE7D3CF007C3AD9 /* xib */ = {
 			isa = PBXGroup;
 			children = (
-				9EA400C61AE7D411007C3AD9 /* baoyangInformCell.xib */,
+				9EA400C61AE7D411007C3AD9 /* BaoyangInformCell.xib */,
+				9EED41401AEB15BC0068BC87 /* BaoyangInformCell.h */,
+				9EED41411AEB15BC0068BC87 /* BaoyangInformCell.m */,
 			);
 			name = xib;
 			sourceTree = "<group>";
@@ -292,7 +297,7 @@
 				9E84E79F1AE7284B00E0E600 /* Main.storyboard in Resources */,
 				9E84E7A41AE7284B00E0E600 /* LaunchScreen.xib in Resources */,
 				9EEB6CB41AE8B85C007827E1 /* start.png in Resources */,
-				9EA400C71AE7D412007C3AD9 /* baoyangInformCell.xib in Resources */,
+				9EA400C71AE7D412007C3AD9 /* BaoyangInformCell.xib in Resources */,
 				9E84E7A11AE7284B00E0E600 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,10 +351,11 @@
 			files = (
 				9E84E79C1AE7284B00E0E600 /* ViewController.m in Sources */,
 				9E84E7991AE7284B00E0E600 /* AppDelegate.m in Sources */,
+				9EED41421AEB15BC0068BC87 /* BaoyangInformCell.m in Sources */,
 				9EEB6CD81AE92804007827E1 /* ZFMethodColletion.m in Sources */,
 				9E84E7BC1AE72C4D00E0E600 /* BaoYangDianViewController.m in Sources */,
 				9EEB6CC01AE8F72E007827E1 /* BaoYangAreaViewController.m in Sources */,
-				9EA400C41AE75ED1007C3AD9 /* ZFBaoYang.m in Sources */,
+				9EA400C41AE75ED1007C3AD9 /* ZFBaoyang.m in Sources */,
 				9E84E7961AE7284B00E0E600 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

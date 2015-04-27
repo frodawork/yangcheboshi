@@ -23,9 +23,11 @@
     [super viewDidLoad];
     _baoyangTabview.delegate = self;
     _baoyangTabview.dataSource = self;
-   [_baoyangTabview addLegendHeaderWithRefreshingTarget:self refreshingAction:@selector(headerRereshing)];
+    [_baoyangTabview addLegendHeaderWithRefreshingTarget:self refreshingAction:@selector(loadNewData)];
+    // 马上进入刷新状态
+    [_baoyangTabview.header beginRefreshing];
 }
-- (void)headerRereshing{
+- (void)loadNewData{
     NSLog(@"执行了刷新");
 }
 #pragma mark baoyangTabview datasource delegate method
@@ -38,20 +40,20 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     static NSString *ID = @"cell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:ID];
+    
     /**
      *  一般cell的创建方法
-     */
-//    if (cell == nil) {
-//        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:ID];
-//    }
-    
-    /**
-     *  通过xib加载cell
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:ID];
+    }
      */
     
+    
+    
+    //通过xib加载cell
     if (cell == nil) {
         NSBundle *bundle = [NSBundle mainBundle];
-        NSArray *objs = [bundle loadNibNamed:@"baoyangInformCell" owner:nil options:nil];
+        NSArray *objs = [bundle loadNibNamed:@"BaoyangInformCell" owner:nil options:nil];
         cell = [objs lastObject];
     }
     return cell;

@@ -10,14 +10,14 @@
 	<string>养车博士</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>A820327A52EE2D6190D39A8C288FBF5B62BF2AA3</key>
+		<key>95901D0291406123DB4F929148CFBF51D426EF1F</key>
 		<string>https://github.com/zhangfei312/-.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>养车博士.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>A820327A52EE2D6190D39A8C288FBF5B62BF2AA3</key>
+		<key>95901D0291406123DB4F929148CFBF51D426EF1F</key>
 		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>A820327A52EE2D6190D39A8C288FBF5B62BF2AA3</string>
+	<string>95901D0291406123DB4F929148CFBF51D426EF1F</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>A820327A52EE2D6190D39A8C288FBF5B62BF2AA3</string>
+			<string>95901D0291406123DB4F929148CFBF51D426EF1F</string>
 			<key>IDESourceControlWCCName</key>
 			<string>%E5%85%BB%E8%BD%A6%E5%8D%9A%E5%A3%AB</string>
 		</dict>

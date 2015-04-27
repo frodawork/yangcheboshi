@@ -6,9 +6,9 @@
 //  Copyright (c) 2015年 froda. All rights reserved.
 //
 
-#import "ZFBaoYang.h"
+#import "ZFBaoyang.h"
 
-@implementation ZFBaoYang
+@implementation ZFBaoyang
 - (instancetype)initWithDict:(NSDictionary *)dict{
     if (self = [super init]){
         self.storeName = dict[@"storeName"];
