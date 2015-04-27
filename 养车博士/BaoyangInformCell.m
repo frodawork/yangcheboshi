@@ -8,10 +8,11 @@
 
 #import "BaoyangInformCell.h"
 #import "ZFBaoyang.h"
+
 @interface BaoyangInformCell()
 @property (weak, nonatomic) IBOutlet UILabel *storeName;
 @property (weak, nonatomic) IBOutlet UILabel *storeAdress;
-@property (weak, nonatomic) IBOutlet UILabel *storeStarRank;
+@property (weak, nonatomic) IBOutlet UILabel *storeStarRankNumber;
 @property (weak, nonatomic) IBOutlet UIProgressView *storeTechRankPropress;
 @property (weak, nonatomic) IBOutlet UILabel *storeTechRank;
 @property (weak, nonatomic) IBOutlet UILabel *storeArea;
@@ -20,7 +21,7 @@
 @implementation BaoyangInformCell
 
 - (void)awakeFromNib {
-    // Initialization code
+    
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
@@ -39,10 +40,10 @@
 }
 - (void)setBaoyang:(ZFBaoyang *)baoyang{
     _baoyang = baoyang;
-    self.storeName.text = baoyang.storeName;
-    self.storeAdress.text = baoyang.storeAdress;
-    self.storeStarRank.text = baoyang.storeStarRank;
-    self.storeTechRank.text = baoyang.storeTechRank;
-    self.storeArea.text = baoyang.storeArea;
+    self.storeName.text = baoyang.storeName;//设置店的全称
+    self.storeAdress.text = baoyang.storeAdress;//设置店的详细地址
+    self.storeStarRankNumber.text = baoyang.storeStarRank;//设置有多少条评论
+    self.storeTechRank.text = baoyang.storeTechRank;//设置技术等级是高级还是初级
+    self.storeArea.text = baoyang.storeArea;//设置距离店的距离范围
 }
 @end

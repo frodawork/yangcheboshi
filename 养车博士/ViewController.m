@@ -13,7 +13,7 @@
 @end
 
 @implementation ViewController
-
+#pragma mark - life cycle
 - (void)viewDidLoad {
     [super viewDidLoad];
     ZFMethodColletion *zfmethod = [[ZFMethodColletion alloc]init];

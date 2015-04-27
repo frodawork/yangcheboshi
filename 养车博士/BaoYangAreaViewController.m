@@ -17,6 +17,7 @@
 @implementation BaoYangAreaViewController
 @synthesize mapView = _mapView;
 
+#pragma mark - life cycle
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
@@ -35,11 +36,14 @@
     _mapView.userTrackingMode = MAUserTrackingModeFollow;
     [_mapView  setZoomLevel:12.5 animated:YES];//设置缩放级别
     [self.view addSubview:_mapView];
+    //--------------------------------------------
+    //这2句代码是用于获取bundleIdentifier
     NSString *bundleIdentifier = [[NSBundle mainBundle] bundleIdentifier];
     NSLog(@"%@",bundleIdentifier);
+    //--------------------------------------------
 }
 
-#pragma mark 地图回调函数
+#pragma mark - MAMapViewDelegate
 - (void)mapView:(MAMapView *)mapView didUpdateUserLocation:(MAUserLocation *)userLocation updatingLocation:(BOOL)updatingLocation{
     if(updatingLocation)
     {
