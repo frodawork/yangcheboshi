@@ -18,6 +18,7 @@ PODS:
   - MBProgressHUD (0.9.1)
   - MBProgressHUDExtensions (0.0.1):
     - MBProgressHUD (~> 0.4)
+  - MJExtension (2.0.1)
   - MJRefresh (1.4.5)
   - Reachability (3.2)
 
@@ -27,6 +28,7 @@ DEPENDENCIES:
   - ASIHTTPRequest (~> 1.8.2)
   - Masonry (~> 0.6.1)
   - MBProgressHUDExtensions (~> 0.0.1)
+  - MJExtension
   - MJRefresh (~> 1.4.5)
 
 SPEC CHECKSUMS:
@@ -36,6 +38,7 @@ SPEC CHECKSUMS:
   Masonry: 4972309f2f134de9dd312f4dc4a21359b50e6caa
   MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
   MBProgressHUDExtensions: f39a37dcc0bf6c7622470c5f5874116ef86ca22e
+  MJExtension: 524b4b939199ea34dc9e822babb915238c3c9167
   MJRefresh: 4b24394e577ea399fbc926e5b6072317aae2c152
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
 
